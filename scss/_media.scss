@@ -136,10 +136,14 @@
         display: none;
     }
 
+    .body--opened--menu {
+        overflow: hidden;
+    }
     .body--opened--menu .header__nav-bar {
         transform: translateY(0%);
         opacity: 1;
         visibility: visible;
+        
     }
 
     .body--opened--menu .burger-icon div::before {
