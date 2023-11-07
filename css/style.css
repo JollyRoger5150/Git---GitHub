@@ -22,6 +22,10 @@ html {
   overflow-x: hidden;
 }
 
+.header__container {
+  min-height: 90dvh;
+}
+
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -46,7 +50,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 463px;
 }
 .header-nav .header-nav__list {
   display: flex;
@@ -1509,6 +1512,11 @@ html {
   .container {
     padding: 0px 16px;
   }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .form__wrapper {
     display: none;
     position: relative;
@@ -1644,7 +1652,6 @@ html {
   }
   .header {
     margin-bottom: 0px;
-    height: 860px;
   }
   .about__video {
     transform: scale(90%);

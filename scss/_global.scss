@@ -16,6 +16,10 @@ html {
     overflow-x: hidden;
 }
 
+.header__container {
+    min-height: 90dvh;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
